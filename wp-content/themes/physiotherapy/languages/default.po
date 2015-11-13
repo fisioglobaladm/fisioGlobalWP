@@ -1,0 +1,1457 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Physiotherapy\n"
+"POT-Creation-Date: 2015-05-28 16:21+0100\n"
+"PO-Revision-Date: 2015-05-28 16:21+0100\n"
+"Last-Translator: \n"
+"Language-Team: rayoflightthemes.com <admin@rayoflightthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x;_n:1,2;_n_noop:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ../plugins\n"
+"X-Poedit-SearchPath-2: ../plugins/rt-physiotherapy-theme-functions\n"
+"X-Poedit-SearchPath-3: ../page-templates\n"
+"X-Poedit-SearchPath-4: ../metabox\n"
+"X-Poedit-SearchPath-5: ../plugins/rt-physiotherapy-theme-functions/php\n"
+"X-Poedit-SearchPath-6: ..\n"
+"X-Poedit-SearchPath-7: ..\n"
+
+#: ../archive.php:66 ../author.php:66 ../category.php:66 ../index.php:66
+#: ../plugins/rt-physiotherapy-theme-functions/php/homeblog.php:98
+#: ../plugins/rt-physiotherapy-theme-functions/php/services.php:47
+#: ../plugins/rt-physiotherapy-theme-functions/php/team.php:64
+#: ../search.php:66 ../tag.php:66
+msgid "read more &#8594;   "
+msgstr ""
+
+#: ../archive.php:82 ../author.php:82 ../category.php:82 ../index.php:82
+#: ../search.php:82 ../tag.php:82
+msgid "&#10094;"
+msgstr ""
+
+#: ../archive.php:83 ../author.php:83 ../category.php:83 ../index.php:83
+#: ../search.php:83 ../tag.php:83
+msgid "&#10095;"
+msgstr ""
+
+#: ../author.php:12
+#, php-format
+msgid "Posts by: %s"
+msgstr ""
+
+#: ../category.php:12
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:161 ../functions.php:82
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:162 ../functions.php:83
+msgid "Install Plugins"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:163 ../functions.php:84
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:165 ../functions.php:86
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../class-tgm-plugin-activation.php:166 ../functions.php:87
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../class-tgm-plugin-activation.php:167 ../functions.php:88
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../class-tgm-plugin-activation.php:168 ../functions.php:89
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../class-tgm-plugin-activation.php:169 ../functions.php:90
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../class-tgm-plugin-activation.php:170 ../functions.php:91
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../class-tgm-plugin-activation.php:171 ../functions.php:92
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../class-tgm-plugin-activation.php:172 ../functions.php:93
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../class-tgm-plugin-activation.php:173 ../functions.php:94
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../class-tgm-plugin-activation.php:174 ../functions.php:95
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../class-tgm-plugin-activation.php:175 ../functions.php:96
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:177
+#: ../class-tgm-plugin-activation.php:1956 ../functions.php:97
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:178
+#: ../class-tgm-plugin-activation.php:1644
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:532
+#: ../class-tgm-plugin-activation.php:2173
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1167
+#: ../class-tgm-plugin-activation.php:1348
+msgid "Private Repository"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1170
+#: ../class-tgm-plugin-activation.php:1351
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1175
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1178
+msgid "Required"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1178
+msgid "Recommended"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1181
+msgid "Not Installed"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1183
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1288
+#: ../class-tgm-plugin-activation.php:1409
+msgid "Install"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1312
+#: ../class-tgm-plugin-activation.php:1410
+msgid "Activate"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1372
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1388
+msgid "Plugin"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1389
+msgid "Source"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1390
+msgid "Type"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1391
+msgid "Status"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1939
+msgid "Install package not available."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1940
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1941
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1942
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1943
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1944
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1955
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2069
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2070
+#: ../class-tgm-plugin-activation.php:2079
+msgid "Show Details"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2070
+#: ../class-tgm-plugin-activation.php:2079
+msgid "Hide Details"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2071
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2076
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2077
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2078
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2079
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2080
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2081
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../comments.php:15
+#, php-format
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: ../comments.php:34
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:35
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:36
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:40
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-none.php:9
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:15
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:17
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../content-none.php:20
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../functions.php:85
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:98
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../functions.php:161
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../functions.php:171
+msgid "Header Menu - for multipage and inner pages"
+msgstr ""
+
+#: ../functions.php:173
+msgid "Primary Menu - for single page site"
+msgstr ""
+
+#: ../functions.php:256
+msgid "Copyright URL Field"
+msgstr ""
+
+#: ../functions.php:268
+msgid "Copyright URL anchor text"
+msgstr ""
+
+#: ../functions.php:281
+msgid "Copyright text"
+msgstr ""
+
+#: ../functions.php:286
+msgid "Copyright Details"
+msgstr ""
+
+#: ../functions.php:295 ../functions.php:300
+msgid "Logo"
+msgstr ""
+
+#: ../functions.php:297
+msgid ""
+"Upload a logo to replace the default site name and description in the header"
+msgstr ""
+
+#: ../functions.php:316
+msgid "Main Blog Sidebar"
+msgstr ""
+
+#: ../functions.php:318
+msgid "Appears in posts and pages"
+msgstr ""
+
+#: ../functions.php:326
+msgid "Footer 1 icons"
+msgstr ""
+
+#: ../functions.php:328
+msgid "Appears in footer. For icons."
+msgstr ""
+
+#: ../functions.php:335
+msgid "Footer 2"
+msgstr ""
+
+#: ../functions.php:337 ../functions.php:346 ../functions.php:355
+#: ../functions.php:364
+msgid "Appears in footer"
+msgstr ""
+
+#: ../functions.php:344
+msgid "Footer 3"
+msgstr ""
+
+#: ../functions.php:353
+msgid "Footer 4"
+msgstr ""
+
+#: ../functions.php:362
+msgid "Footer 5"
+msgstr ""
+
+#: ../functions.php:371
+msgid "Header 1 icons"
+msgstr ""
+
+#: ../functions.php:373 ../functions.php:382 ../functions.php:391
+#: ../functions.php:400
+msgid "Appears in header"
+msgstr ""
+
+#: ../functions.php:380
+msgid "Header 2"
+msgstr ""
+
+#: ../functions.php:389
+msgid "Header 3"
+msgstr ""
+
+#: ../functions.php:398
+msgid "Header 4 search"
+msgstr ""
+
+#: ../metabox/meta-box/inc/common.php:53
+msgid "Documentation"
+msgstr ""
+
+#: ../metabox/meta-box/inc/common.php:54
+msgid "Extensions"
+msgstr ""
+
+#: ../metabox/meta-box/inc/field.php:229
+msgid "+"
+msgstr ""
+
+#: ../metabox/meta-box/inc/field.php:242
+msgid "&#8211;"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/autocomplete.php:18
+#: ../metabox/meta-box/inc/fields/autocomplete.php:83
+#: ../metabox/meta-box/inc/fields/autocomplete.php:100
+#: ../metabox/meta-box/inc/fields/file-advanced.php:103
+#: ../metabox/meta-box/inc/fields/file.php:168
+#: ../metabox/meta-box/inc/fields/image-advanced.php:108
+#: ../metabox/meta-box/inc/fields/image.php:136
+msgid "Delete"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/button.php:35
+msgid "Click me"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/checkbox.php:75
+msgid "Yes"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/checkbox.php:75
+msgid "No"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/file-advanced.php:23
+#: ../metabox/meta-box/inc/fields/plupload-image.php:107
+msgid "Select Files"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/file-advanced.php:66
+msgid "Select or Upload Files"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/file-advanced.php:104
+#: ../metabox/meta-box/inc/fields/file.php:169
+#: ../metabox/meta-box/inc/fields/image-advanced.php:109
+#: ../metabox/meta-box/inc/fields/image.php:137
+msgid "Edit"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/file-input.php:40
+msgid "Select"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/file-input.php:42
+msgid "Remove"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/file.php:98
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/file.php:111
+msgid "Upload Files"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/file.php:112
+msgid "+ Add new file"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/image-advanced.php:23
+msgid "Select Images"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/image-advanced.php:71
+msgid "Select or Upload Images"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/image.php:70
+#: ../metabox/meta-box/inc/fields/thickbox-image.php:34
+msgid "Upload Images"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/image.php:71
+msgid "+ Add new image"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/map.php:46
+msgid "Find Address"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/oembed.php:55
+msgid "Embed HTML not available."
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/oembed.php:77
+msgid "Preview"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/plupload-image.php:105
+msgid "Drop images here"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/plupload-image.php:106
+msgid "or"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/plupload-image.php:182
+msgid "Allowed Image Files"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/post.php:56
+msgid "Select a post"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/post.php:60
+#: ../metabox/meta-box/inc/fields/taxonomy.php:40
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: ../metabox/meta-box/inc/fields/user.php:49
+msgid "Select an user"
+msgstr ""
+
+#: ../metabox/meta-box/inc/meta-box.php:245
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: ../metabox/registered-meta-boxes.php:44
+msgid "Sidebar"
+msgstr ""
+
+#: ../metabox/registered-meta-boxes.php:58
+msgid "Sidebar in post"
+msgstr ""
+
+#: ../metabox/registered-meta-boxes.php:63
+msgid "add sidebar in post"
+msgstr ""
+
+#: ../metabox/registered-meta-boxes.php:64
+msgid "remove sidebar from post"
+msgstr ""
+
+#: ../metabox/registered-meta-boxes.php:80
+#: ../metabox/registered-meta-boxes.php:90
+msgid "Icon"
+msgstr ""
+
+#: ../metabox/registered-meta-boxes.php:94
+msgid ""
+"use icon name from this list (e.g fa fa-list-alt): http://fortawesome.github."
+"io/Font-Awesome/icons/"
+msgstr ""
+
+#: ../metabox/registered-meta-boxes.php:97
+msgid "fa fa-user-md"
+msgstr ""
+
+#: ../metabox/registered-meta-boxes.php:112
+#: ../metabox/registered-meta-boxes.php:122
+#: ../metabox/registered-meta-boxes.php:126
+msgid "Team member job/position"
+msgstr ""
+
+#: ../metabox/registered-meta-boxes.php:129
+msgid "e.g. therapist"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:20
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:21
+msgid "Testimonials"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:22
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:23
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:24
+msgid "Edit Testimonial"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:25
+msgid "New Testimonial"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:26
+msgid "View Testimonials"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:27
+msgid "Search Testimonials"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:28
+msgid "No Testimonials found"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:29
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:58
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:59
+msgid "Slider"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:60
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:61
+msgid "Add New slider"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:62
+msgid "Edit slider"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:63
+msgid "New slider"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:64
+msgid "View slider"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:65
+msgid "Search sliders"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:66
+msgid "No sliders found"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:67
+msgid "No sliders found in Trash"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:95
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:96
+msgid "Slider2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:97
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:98
+msgid "Add New slider2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:99
+msgid "Edit slider2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:100
+msgid "New slider2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:101
+msgid "View slider2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:102
+msgid "Search sliders2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:103
+msgid "No sliders2 found"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:104
+msgid "No sliders2 found in Trash"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:132
+msgid "Carousel"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:133
+msgid "carousel"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:134
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:135
+msgid "Add New carousel"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:136
+msgid "Edit carousel"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:137
+msgid "New carousel"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:138
+msgid "View carousel"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:139
+msgid "Search carousel"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:140
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:177
+msgid "No carousel found"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:141
+msgid "No carousel found in Trash"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:169
+msgid "Carousel2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:170
+msgid "carousel2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:171
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:172
+msgid "Add New carousel2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:173
+msgid "Edit carousel2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:174
+msgid "New carousel2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:175
+msgid "View carousel2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:176
+msgid "Search carousel2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:178
+msgid "No carousel2 found in Trash"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:206
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:207
+msgid "team"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:208
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:248
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:288
+msgid "Add New"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:209
+msgid "Add New team"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:210
+msgid "Edit team"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:211
+msgid "New team"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:212
+msgid "View team"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:213
+msgid "Search team"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:214
+msgid "No team found"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:215
+msgid "No team found in Trash"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:216
+msgid "Parent team:"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:217
+msgid "Team"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:246
+msgid "box columns"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:247
+msgid "boxcolumns"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:249
+msgid "Add New boxcolumn"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:250
+msgid "Edit boxcolumns"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:251
+msgid "New boxcolumns"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:252
+msgid "View boxcolumns"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:253
+msgid "Search boxcolumns"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:254
+msgid "No boxcolumns found"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:255
+msgid "No boxcolumns found in Trash"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:256
+msgid "Parent boxcolumns:"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:257
+msgid "Box columns"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:286
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:287
+msgid "services"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:289
+msgid "Add New services"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:290
+msgid "Edit services"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:291
+msgid "New services"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:292
+msgid "View services"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:293
+msgid "Search services"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:294
+msgid "No services found"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:295
+msgid "No services found in Trash"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:296
+msgid "Parent services:"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:297
+msgid "Services"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:327
+msgid "Gallery filter"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:328
+msgid "gallery filter"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:329
+msgid "Add New gallery filter"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:330
+msgid "Add New gallery filter image"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:331
+msgid "Edit gallery filter"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:332
+msgid "New gallery filter"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:333
+msgid "View gallery filter"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:334
+msgid "Search gallery filter"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:335
+msgid "No fallery filter found"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:336
+msgid "No gallery filter found in Trash"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:361
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:386
+msgid "Cagetory"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:425
+msgid "Rt testimonials"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:428
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:479
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:530
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:580
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:638
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:696
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:756
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:815
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:866
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:930
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:988
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1049
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1114
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1183
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1267
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1376
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1439
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1493
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1567
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1638
+msgid "Content"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:433
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:484
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:535
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:585
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:643
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:701
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:761
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:820
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:871
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:935
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:993
+msgid "Limit"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:435
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:486
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:537
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:587
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:645
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:703
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:763
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:937
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:995
+msgid "-1"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:436
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:487
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:538
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:588
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:646
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:704
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:764
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:823
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:874
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:938
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:996
+msgid ""
+"Limit how many posts to show. -1 will show all posts. All positive numbers "
+"allowed."
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:440
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:491
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:542
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:592
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:650
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:708
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:768
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:827
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:878
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:942
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1000
+msgid "Order"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:443
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:494
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:545
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:595
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:653
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:711
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:771
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:830
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:881
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:945
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1003
+msgid "Show post by order from newest (DESC) or oldest (ASC)"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:476
+msgid "Rt slider for slider with image"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:527
+msgid "Rt slider2 for slider with text only"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:577
+msgid "Rt carousel"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:599
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:657
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:715
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:775
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:885
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:949
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1007
+msgid "Number of columns"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:602
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:660
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:718
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:778
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:952
+msgid "Number of columns. Values: 1,2,3,4,5,6 "
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:635
+msgid "Rt carousel2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:693
+msgid "Rt team"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:753
+msgid "Rt homeblog"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:812
+msgid "Rt homeblog list"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:822
+msgid "2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:863
+msgid "Rt boxcolumns"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:873
+msgid "3"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:888
+msgid "Number of columns. Values: 2,3,4,5 "
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:892
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:895
+msgid "boxed or full width"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:927
+msgid "Rt services"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:985
+msgid "Rt gallery filter (isotope)"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1010
+msgid "Number of columns. Values: 2,3,4 "
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1046
+msgid "Rt one counter"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1054
+msgid "Counter headline"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1056
+msgid "this is headline"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1057
+msgid "Add counter headline"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1062
+msgid "Counter number"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1064
+msgid "89"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1065
+msgid "Add counter number value"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1069
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1072
+msgid "Color"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1111
+msgid "Rt banner"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1119
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1121
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1122
+msgid "call to action text"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1127
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1130
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1303
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1306
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1501
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1575
+msgid "button text"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1129
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1305
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1500
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1574
+msgid "see more"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1135
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1311
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1509
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1583
+msgid "button URL"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1137
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1313
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1508
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1582
+msgid "http://..."
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1138
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1314
+msgid "add URL for button"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1142
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1513
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1587
+msgid "Target"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1145
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1321
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1516
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1590
+msgid "open in new or same tab"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1180
+msgid "Rt slider caption text"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1188
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1191
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1272
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1275
+msgid "small headline"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1190
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1274
+msgid "welcome"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1196
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1199
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1280
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1283
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1381
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1384
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1444
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1447
+msgid "headline"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1198
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1282
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1383
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1446
+msgid "physiotherapy"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1204
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1206
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1207
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1288
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1290
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1291
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1389
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1391
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1392
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1498
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1572
+msgid "text"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1211
+msgid "text align"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1214
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1328
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1399
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1454
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1523
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1597
+msgid "text left, center or right"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1218
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1295
+msgid "text color"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1221
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1298
+msgid "for white text color"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1264
+msgid "Rt slider caption button"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1318
+msgid "target"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1325
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1396
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1451
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1520
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1594
+msgid "Text align"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1332
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1527
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1601
+msgid "Button size"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1335
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1530
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1604
+msgid "large, medium, small"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1373
+msgid "Rt main headline"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1436
+msgid "Rt main headline small"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1490
+msgid "Rt button1"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1506
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1580
+msgid "URL"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1564
+msgid "Rt button2"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1635
+msgid "Rt working time"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1643
+msgid "text left"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1645
+msgid "Monday - Friday"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1646
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1654
+msgid "for main row columns above top slider, working time"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1651
+msgid "text right"
+msgstr ""
+
+#: ../plugins/rt-physiotherapy-theme-functions/rt-physiotherapy-theme-functions.php:1653
+msgid "08am - 17pm"
+msgstr ""
+
+#: ../search.php:12
+#, php-format
+msgid "Search Results For: %s"
+msgstr ""
+
+#: ../single.php:58
+msgid "Pages:"
+msgstr ""
+
+#: ../tag.php:12
+#, php-format
+msgid "Tag: %s"
+msgstr ""

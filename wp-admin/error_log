@@ -1,0 +1,5 @@
+[03-Nov-2015 03:56:49 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/fisioglobaladm/public_html/wp-content/plugins/widget-settings-importexport/class-widget-data.php on line 27
+[03-Nov-2015 03:56:49 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/fisioglobaladm/public_html/wp-content/plugins/widget-settings-importexport/class-widget-data.php on line 27
+[03-Nov-2015 03:56:49 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/fisioglobaladm/public_html/wp-content/plugins/widget-settings-importexport/class-widget-data.php on line 27
+[03-Nov-2015 03:56:49 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home/fisioglobaladm/public_html/wp-content/plugins/widget-settings-importexport/class-widget-data.php on line 27
+[03-Nov-2015 03:56:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fisioglobaladm/public_html/wp-content/plugins/widget-settings-importexport/class-widget-data.php:27) in /home/fisioglobaladm/public_html/wp-includes/class-wp-ajax-response.php on line 135
