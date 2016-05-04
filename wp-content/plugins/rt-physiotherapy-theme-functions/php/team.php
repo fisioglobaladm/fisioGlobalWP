@@ -61,7 +61,7 @@ if ($teamjob) {
 <?php 
   printf('<a class="hvr-shutter-out-horizontal" href="%1s">%2s</a>',
   get_permalink(),
- __('read more &#8594;   ', 'physio')
+ __('Leer más &#8594;   ', 'physio')
     );
   ?>
 </div>

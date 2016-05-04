@@ -22,22 +22,22 @@
           <?php dynamic_sidebar( 'sidebar-6' ); ?>	
           <?php endif; ?>			
         </div>
-        <div class="col-md-6">   
-          <?php if ( is_active_sidebar( 'sidebar-7' ) ) : ?>
+        <div class="col-md-6">  
+	  <?php if ( is_active_sidebar( 'sidebar-7' ) ) : ?>
           <?php dynamic_sidebar( 'sidebar-7' ); ?>	
-          <?php endif; ?>			
+          <?php endif; ?>
         </div>
       </div>
     </div>
   </div>
   <div class="container">  
     <div class="row"> 
-      <div class="col-md-6">   
+      <div class="col-md-4">   
         <?php if ( is_active_sidebar( 'sidebar-9' ) ) : ?>
         <?php dynamic_sidebar( 'sidebar-9' ); ?>	
         <?php endif; ?>			
       </div>
-      <div class="col-md-6">   
+      <div class="col-md-8">   
         <?php if ( is_active_sidebar( 'sidebar-8' ) ) : ?>
         <?php dynamic_sidebar( 'sidebar-8' ); ?>	
         <?php endif; ?>			
