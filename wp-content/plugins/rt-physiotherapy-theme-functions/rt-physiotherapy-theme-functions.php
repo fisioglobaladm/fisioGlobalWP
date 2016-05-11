@@ -13,188 +13,188 @@ License: http://themeforest.net/licenses
 *********************************************************/
 
 /* Testimonials custom post type */
-add_action('init', 'rt_physiotheme_rttestimonials'); 
+add_action('init', 'rt_physiotheme_rttestimonials');
 
-function rt_physiotheme_rttestimonials()  {  
-  $labels = array(  
-    'name' => __('Testimonials', 'physio'),  
-    'singular_name' => __('Testimonials', 'physio'),  
-    'add_new' => __('Add New Testimonial', 'physio'),  
-    'add_new_item' => __('Add New Testimonial', 'physio'),  
-    'edit_item' => __('Edit Testimonial', 'physio'),  
-    'new_item' => __('New Testimonial', 'physio'),  
-    'view_item' => __('View Testimonials', 'physio'),  
-    'search_items' => __('Search Testimonials', 'physio'),  
-    'not_found' =>  __('No Testimonials found', 'physio'),  
-    'not_found_in_trash' => __('No Testimonials found in Trash', 'physio'),  
-    'parent_item_colon' => '' 
-  );  
-  
-  $args = array(  
-    'labels' => $labels,  
-    'public' => true,  
-    'publicly_queryable' => false,  
-    'show_ui' => true,  
+function rt_physiotheme_rttestimonials()  {
+  $labels = array(
+    'name' => __('Testimonials', 'physio'),
+    'singular_name' => __('Testimonials', 'physio'),
+    'add_new' => __('Add New Testimonial', 'physio'),
+    'add_new_item' => __('Add New Testimonial', 'physio'),
+    'edit_item' => __('Edit Testimonial', 'physio'),
+    'new_item' => __('New Testimonial', 'physio'),
+    'view_item' => __('View Testimonials', 'physio'),
+    'search_items' => __('Search Testimonials', 'physio'),
+    'not_found' =>  __('No Testimonials found', 'physio'),
+    'not_found_in_trash' => __('No Testimonials found in Trash', 'physio'),
+    'parent_item_colon' => ''
+  );
+
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'publicly_queryable' => false,
+    'show_ui' => true,
     'query_var' => true,
-    'rewrite' => array('slug' => 'testimonials','with_front' => false), 
+    'rewrite' => array('slug' => 'testimonials','with_front' => false),
     'capability_type' => 'post',
-    'show_in_nav_menus' => true,  	 
-    'hierarchical' => false, 
-    'exclude_from_search' => true,	 
-    'menu_position' => 4, 
-    'supports' => array( 'title', 'editor', 'thumbnail')  
-  );  
-  register_post_type('rttestimonials',$args);  
-} 
+    'show_in_nav_menus' => true,
+    'hierarchical' => false,
+    'exclude_from_search' => true,
+    'menu_position' => 4,
+    'supports' => array( 'title', 'editor', 'thumbnail')
+  );
+  register_post_type('rttestimonials',$args);
+}
 /* Testimonials custom post type end */
 
 
 
 /* Slider custom post type */
-add_action('init', 'rt_physiotheme_slider_cpt'); 
+add_action('init', 'rt_physiotheme_slider_cpt');
 
-function rt_physiotheme_slider_cpt()  {  
-  $labels = array(  
-    'name' => __('Slider', 'physio'),  
-    'singular_name' => __('Slider', 'physio'),  
-    'add_new' => __('Add New slider', 'physio'),  
-    'add_new_item' => __('Add New slider', 'physio'),  
-    'edit_item' => __('Edit slider', 'physio'),  
-    'new_item' => __('New slider', 'physio'),  
-    'view_item' => __('View slider', 'physio'),  
-    'search_items' => __('Search sliders', 'physio'),  
-    'not_found' =>  __('No sliders found', 'physio'),  
-    'not_found_in_trash' => __('No sliders found in Trash', 'physio'),  
-    'parent_item_colon' => '' 
-  );  
-  
-  $args = array(  
-    'labels' => $labels,  
-    'public' => true,  
-    'publicly_queryable' => false,  
-    'show_ui' => true,  
+function rt_physiotheme_slider_cpt()  {
+  $labels = array(
+    'name' => __('Slider', 'physio'),
+    'singular_name' => __('Slider', 'physio'),
+    'add_new' => __('Add New slider', 'physio'),
+    'add_new_item' => __('Add New slider', 'physio'),
+    'edit_item' => __('Edit slider', 'physio'),
+    'new_item' => __('New slider', 'physio'),
+    'view_item' => __('View slider', 'physio'),
+    'search_items' => __('Search sliders', 'physio'),
+    'not_found' =>  __('No sliders found', 'physio'),
+    'not_found_in_trash' => __('No sliders found in Trash', 'physio'),
+    'parent_item_colon' => ''
+  );
+
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'publicly_queryable' => false,
+    'show_ui' => true,
     'query_var' => true,
     'rewrite' => array('slug' => 'slider','with_front' => false),
     'capability_type' => 'post',
-    'show_in_nav_menus' => true,  	 
-    'hierarchical' => false, 
-    'exclude_from_search' => true,	 
-    'menu_position' => 5, 
-    'supports' => array( 'title', 'editor', 'thumbnail')  
-  );  
-  register_post_type('rtslider',$args);  
-} 
+    'show_in_nav_menus' => true,
+    'hierarchical' => false,
+    'exclude_from_search' => true,
+    'menu_position' => 5,
+    'supports' => array( 'title', 'editor', 'thumbnail')
+  );
+  register_post_type('rtslider',$args);
+}
 /* Slider custom post type end */
 
 
 /* Slider2 custom post type */
-add_action('init', 'rt_physiotheme_slider2_cpt'); 
+add_action('init', 'rt_physiotheme_slider2_cpt');
 
-function rt_physiotheme_slider2_cpt()  {  
-  $labels = array(  
-    'name' => __('Slider2', 'physio'),  
-    'singular_name' => __('Slider2', 'physio'),  
-    'add_new' => __('Add New slider2', 'physio'),  
-    'add_new_item' => __('Add New slider2', 'physio'),  
-    'edit_item' => __('Edit slider2', 'physio'),  
-    'new_item' => __('New slider2', 'physio'),  
-    'view_item' => __('View slider2', 'physio'),  
-    'search_items' => __('Search sliders2', 'physio'),  
-    'not_found' =>  __('No sliders2 found', 'physio'),  
-    'not_found_in_trash' => __('No sliders2 found in Trash', 'physio'),  
-    'parent_item_colon' => '' 
-  );  
-  
-  $args = array(  
-    'labels' => $labels,  
-    'public' => true,  
-    'publicly_queryable' => false,  
-    'show_ui' => true,  
+function rt_physiotheme_slider2_cpt()  {
+  $labels = array(
+    'name' => __('Slider2', 'physio'),
+    'singular_name' => __('Slider2', 'physio'),
+    'add_new' => __('Add New slider2', 'physio'),
+    'add_new_item' => __('Add New slider2', 'physio'),
+    'edit_item' => __('Edit slider2', 'physio'),
+    'new_item' => __('New slider2', 'physio'),
+    'view_item' => __('View slider2', 'physio'),
+    'search_items' => __('Search sliders2', 'physio'),
+    'not_found' =>  __('No sliders2 found', 'physio'),
+    'not_found_in_trash' => __('No sliders2 found in Trash', 'physio'),
+    'parent_item_colon' => ''
+  );
+
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'publicly_queryable' => false,
+    'show_ui' => true,
     'query_var' => true,
-    'rewrite' => array('slug' => 'slider2','with_front' => false), 
+    'rewrite' => array('slug' => 'slider2','with_front' => false),
     'capability_type' => 'post',
-    'show_in_nav_menus' => true,  	 
-    'hierarchical' => false, 
-    'exclude_from_search' => true,	 
-    'menu_position' => 6, 
-    'supports' => array( 'title', 'editor', 'thumbnail')  
-  );  
-  register_post_type('rtslider2',$args);  
-} 
+    'show_in_nav_menus' => true,
+    'hierarchical' => false,
+    'exclude_from_search' => true,
+    'menu_position' => 6,
+    'supports' => array( 'title', 'editor', 'thumbnail')
+  );
+  register_post_type('rtslider2',$args);
+}
 /* Slider2 custom post type end */
 
 
 /* Carousel custom post type */
-add_action('init', 'rt_physiotheme_carousel_cpt'); 
+add_action('init', 'rt_physiotheme_carousel_cpt');
 
-function rt_physiotheme_carousel_cpt()  {  
-  $labels = array(  
-    'name' => __('Carousel', 'physio'),  
-    'singular_name' => __('carousel', 'physio'),  
-    'add_new' => __('Add New carousel', 'physio'),  
-    'add_new_item' => __('Add New carousel', 'physio'),  
-    'edit_item' => __('Edit carousel', 'physio'),  
-    'new_item' => __('New carousel', 'physio'),  
-    'view_item' => __('View carousel', 'physio'),  
-    'search_items' => __('Search carousel', 'physio'),  
-    'not_found' =>  __('No carousel found', 'physio'),  
-    'not_found_in_trash' => __('No carousel found in Trash', 'physio'),  
-    'parent_item_colon' => '' 
-  );  
-  
-  $args = array(  
-    'labels' => $labels,  
-    'public' => true,  
-    'publicly_queryable' => true,  
-    'show_ui' => true,  
+function rt_physiotheme_carousel_cpt()  {
+  $labels = array(
+    'name' => __('Carousel', 'physio'),
+    'singular_name' => __('carousel', 'physio'),
+    'add_new' => __('Add New carousel', 'physio'),
+    'add_new_item' => __('Add New carousel', 'physio'),
+    'edit_item' => __('Edit carousel', 'physio'),
+    'new_item' => __('New carousel', 'physio'),
+    'view_item' => __('View carousel', 'physio'),
+    'search_items' => __('Search carousel', 'physio'),
+    'not_found' =>  __('No carousel found', 'physio'),
+    'not_found_in_trash' => __('No carousel found in Trash', 'physio'),
+    'parent_item_colon' => ''
+  );
+
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'publicly_queryable' => true,
+    'show_ui' => true,
     'query_var' => true,
-    'rewrite' => array('slug' => 'carousel_image','with_front' => false), 
+    'rewrite' => array('slug' => 'carousel_image','with_front' => false),
     'capability_type' => 'post',
-    'show_in_nav_menus' => true,  	 
-    'hierarchical' => false, 
-    'exclude_from_search' => false,	 
-    'menu_position' => 7, 
-    'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt')  
-  );  
-  register_post_type('rtcarousel',$args);  
-} 
+    'show_in_nav_menus' => true,
+    'hierarchical' => false,
+    'exclude_from_search' => false,
+    'menu_position' => 7,
+    'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt')
+  );
+  register_post_type('rtcarousel',$args);
+}
 /* Carousel custom post type end */
 
 
 /* Carousel2 custom post type */
-add_action('init', 'rt_physiotheme_carousel2_cpt'); 
+add_action('init', 'rt_physiotheme_carousel2_cpt');
 
-function rt_physiotheme_carousel2_cpt()  {  
-  $labels = array(  
-    'name' => __('Carousel2', 'physio'),  
-    'singular_name' => __('carousel2', 'physio'),  
-    'add_new' => __('Add New carousel2', 'physio'),  
-    'add_new_item' => __('Add New carousel2', 'physio'),  
-    'edit_item' => __('Edit carousel2', 'physio'),  
-    'new_item' => __('New carousel2', 'physio'),  
-    'view_item' => __('View carousel2', 'physio'),  
-    'search_items' => __('Search carousel2', 'physio'),  
-    'not_found' =>  __('No carousel found', 'physio'),  
-    'not_found_in_trash' => __('No carousel2 found in Trash', 'physio'),  
-    'parent_item_colon' => '' 
-  );  
-  
-  $args = array(  
-    'labels' => $labels,  
-    'public' => true,  
-    'publicly_queryable' => true,  
-    'show_ui' => true,  
+function rt_physiotheme_carousel2_cpt()  {
+  $labels = array(
+    'name' => __('Carousel2', 'physio'),
+    'singular_name' => __('carousel2', 'physio'),
+    'add_new' => __('Add New carousel2', 'physio'),
+    'add_new_item' => __('Add New carousel2', 'physio'),
+    'edit_item' => __('Edit carousel2', 'physio'),
+    'new_item' => __('New carousel2', 'physio'),
+    'view_item' => __('View carousel2', 'physio'),
+    'search_items' => __('Search carousel2', 'physio'),
+    'not_found' =>  __('No carousel found', 'physio'),
+    'not_found_in_trash' => __('No carousel2 found in Trash', 'physio'),
+    'parent_item_colon' => ''
+  );
+
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'publicly_queryable' => true,
+    'show_ui' => true,
     'query_var' => true,
-    'rewrite' => array('slug' => 'carousel2_image','with_front' => false),  
+    'rewrite' => array('slug' => 'carousel2_image','with_front' => false),
     'capability_type' => 'post',
-    'show_in_nav_menus' => true,  	 
-    'hierarchical' => false, 
-    'exclude_from_search' => false,	 
-    'menu_position' => 8, 
-    'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt')  
-  );  
-  register_post_type('rtcarousel2',$args);  
-} 
+    'show_in_nav_menus' => true,
+    'hierarchical' => false,
+    'exclude_from_search' => false,
+    'menu_position' => 8,
+    'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt')
+  );
+  register_post_type('rtcarousel2',$args);
+}
 /* carousel2 custom post type end */
 
 
@@ -211,7 +211,7 @@ function rt_physiotheme_register_cpt_team() {
     'new_item' => __( 'New team', 'physio' ),
     'view_item' => __( 'View team', 'physio' ),
     'search_items' => __( 'Search team', 'physio' ),
-    'not_found' => __( 'No team found', 'physio' ), 
+    'not_found' => __( 'No team found', 'physio' ),
     'not_found_in_trash' => __( 'No team found in Trash', 'physio' ),
     'parent_item_colon' => __( 'Parent team:', 'physio' ),
     'menu_name' => __( 'Team', 'physio' ),
@@ -229,15 +229,15 @@ function rt_physiotheme_register_cpt_team() {
     'has_archive' => true,
     'query_var' => true,
     'can_export' => true,
-    'rewrite' => array('slug' => 'team','with_front' => false), 
-	  'menu_position' => 9, 
+    'rewrite' => array('slug' => 'team','with_front' => false),
+	  'menu_position' => 9,
     'capability_type' => 'post'
     );
-    register_post_type( 'rtteam', $args );	
+    register_post_type( 'rtteam', $args );
 }
-/* Team custom post type end */	
+/* Team custom post type end */
 
-  
+
 /* Box columns custom post type */
 add_action( 'init', 'rt_physiotheme_register_cpt_boxcolumns' );
 
@@ -251,7 +251,7 @@ function rt_physiotheme_register_cpt_boxcolumns() {
     'new_item' => __( 'New boxcolumns', 'physio' ),
     'view_item' => __( 'View boxcolumns', 'physio' ),
     'search_items' => __( 'Search boxcolumns', 'physio' ),
-    'not_found' => __( 'No boxcolumns found', 'physio' ), 
+    'not_found' => __( 'No boxcolumns found', 'physio' ),
     'not_found_in_trash' => __( 'No boxcolumns found in Trash', 'physio' ),
     'parent_item_colon' => __( 'Parent boxcolumns:', 'physio' ),
     'menu_name' => __( 'Box columns', 'physio' ),
@@ -264,18 +264,18 @@ function rt_physiotheme_register_cpt_boxcolumns() {
     'show_ui' => true,
     'show_in_menu' => true,
     'show_in_nav_menus' => false,
-    'publicly_queryable' => false,  
+    'publicly_queryable' => false,
     'exclude_from_search' => true,
     'has_archive' => true,
     'query_var' => true,
     'can_export' => true,
-    'rewrite' => array('slug' => 'box','with_front' => false), 
-	  'menu_position' => 10, 
+    'rewrite' => array('slug' => 'box','with_front' => false),
+	  'menu_position' => 10,
     'capability_type' => 'post'
     );
-    register_post_type( 'rtboxcolumns', $args );	
+    register_post_type( 'rtboxcolumns', $args );
 }
-/* Box columns custom post type end */	
+/* Box columns custom post type end */
 
 
 /* Services custom post type */
@@ -291,7 +291,7 @@ function rt_physiotheme_register_cpt_services() {
     'new_item' => __( 'New services', 'physio' ),
     'view_item' => __( 'View services', 'physio' ),
     'search_items' => __( 'Search services', 'physio' ),
-    'not_found' => __( 'No services found', 'physio' ), 
+    'not_found' => __( 'No services found', 'physio' ),
     'not_found_in_trash' => __( 'No services found in Trash', 'physio' ),
     'parent_item_colon' => __( 'Parent services:', 'physio' ),
     'menu_name' => __( 'Services', 'physio' ),
@@ -304,64 +304,64 @@ function rt_physiotheme_register_cpt_services() {
     'show_ui' => true,
     'show_in_menu' => true,
     'show_in_nav_menus' => false,
-    'publicly_queryable' => true,  
+    'publicly_queryable' => true,
     'exclude_from_search' => false,
     'has_archive' => true,
     'query_var' => true,
     'can_export' => true,
-    'rewrite' => array('slug' => 'services','with_front' => false), 
-	  'menu_position' => 11, 
+    'rewrite' => array('slug' => 'services','with_front' => false),
+	  'menu_position' => 11,
     'capability_type' => 'post'
     );
-    register_post_type( 'rtservices', $args );	    
+    register_post_type( 'rtservices', $args );
 }
-/* Services custom post type end */	
+/* Services custom post type end */
 
 
 /* Gallery filter custom post type */
-add_action('init', 'rt_physiotheme_galleryfilter_cpt'); 
+add_action('init', 'rt_physiotheme_galleryfilter_cpt');
 
-function rt_physiotheme_galleryfilter_cpt()  {  
+function rt_physiotheme_galleryfilter_cpt()  {
 {
-  $labels = array(  
-    'name' => __('Gallery filter', 'physio'),  
-    'singular_name' => __('gallery filter', 'physio'),  
-    'add_new' => __('Add New gallery filter', 'physio'),  
-    'add_new_item' => __('Add New gallery filter image', 'physio'),  
-    'edit_item' => __('Edit gallery filter', 'physio'),  
-    'new_item' => __('New gallery filter', 'physio'),  
-    'view_item' => __('View gallery filter', 'physio'),  
-    'search_items' => __('Search gallery filter', 'physio'),  
-    'not_found' =>  __('No fallery filter found', 'physio'),  
-    'not_found_in_trash' => __('No gallery filter found in Trash', 'physio'),  
-    'parent_item_colon' => '' 
-  );  
-  
-  $args = array(  
-    'labels' => $labels,  
-    'public' => true,  
-    'publicly_queryable' => true,  
-    'show_ui' => true,  
-    'query_var' => true,
-    'rewrite' => array('slug' => 'gallery','with_front' => false), 
-    'capability_type' => 'post',
-    'show_in_nav_menus' => true,  	 
-    'hierarchical' => false, 
-    'exclude_from_search' => false,	 
-    'menu_position' => 7, 
-    'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt')  
-  );  
-  register_post_type('rtgalleryfilter',$args);  
-} 
+  $labels = array(
+    'name' => __('Gallery filter', 'physio'),
+    'singular_name' => __('gallery filter', 'physio'),
+    'add_new' => __('Add New gallery filter', 'physio'),
+    'add_new_item' => __('Add New gallery filter image', 'physio'),
+    'edit_item' => __('Edit gallery filter', 'physio'),
+    'new_item' => __('New gallery filter', 'physio'),
+    'view_item' => __('View gallery filter', 'physio'),
+    'search_items' => __('Search gallery filter', 'physio'),
+    'not_found' =>  __('No fallery filter found', 'physio'),
+    'not_found_in_trash' => __('No gallery filter found in Trash', 'physio'),
+    'parent_item_colon' => ''
+  );
 
-register_taxonomy( 'rtgalleryfilter-categories', 
-	array( 	'rtgalleryfilter' ), 
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'publicly_queryable' => true,
+    'show_ui' => true,
+    'query_var' => true,
+    'rewrite' => array('slug' => 'gallery','with_front' => false),
+    'capability_type' => 'post',
+    'show_in_nav_menus' => true,
+    'hierarchical' => false,
+    'exclude_from_search' => false,
+    'menu_position' => 7,
+    'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt')
+  );
+  register_post_type('rtgalleryfilter',$args);
+}
+
+register_taxonomy( 'rtgalleryfilter-categories',
+	array( 	'rtgalleryfilter' ),
 	array( 	'hierarchical' => true,
-		'labels' => array('name'=>"Category",'add_new_item'=>"Add New Category"), 
-		'singular_label' => __( "Cagetory" ), 
-		'rewrite' => array( 'slug' => 'category',  
+		'labels' => array('name'=>"Category",'add_new_item'=>"Add New Category"),
+		'singular_label' => __( "Cagetory" ),
+		'rewrite' => array( 'slug' => 'category',
 		'with_front' => false)
-	) 
+	)
 );
 
 }
@@ -370,61 +370,61 @@ register_taxonomy( 'rtgalleryfilter-categories',
 register_deactivation_hook( __FILE__, 'flush_rewrite_rules' );
 register_activation_hook( __FILE__, 'rtphysio_functions_flush_rewrites' );
 function rtphysio_functions_flush_rewrites() {
-  register_post_type('rttestimonials',$args);  
-  register_post_type('rtslider',$args);  
-  register_post_type('rtslider2',$args);  
-  register_post_type('rtcarousel',$args);  
-  register_post_type('rtcarousel2',$args);  
+  register_post_type('rttestimonials',$args);
+  register_post_type('rtslider',$args);
+  register_post_type('rtslider2',$args);
+  register_post_type('rtcarousel',$args);
+  register_post_type('rtcarousel2',$args);
   register_post_type( 'rtteam', $args );
-  register_post_type( 'rtboxcolumns', $args );	
+  register_post_type( 'rtboxcolumns', $args );
   register_post_type( 'rtservices', $args );
-  register_post_type('rtgalleryfilter',$args);  
-  register_taxonomy( 'rtgalleryfilter-categories', 
-	array( 	'rtgalleryfilter' ), 
+  register_post_type('rtgalleryfilter',$args);
+  register_taxonomy( 'rtgalleryfilter-categories',
+	array( 	'rtgalleryfilter' ),
 	array( 	'hierarchical' => true,
-		'labels' => array('name'=>"Category",'add_new_item'=>"Add New Category"), 
-		'singular_label' => __( "Cagetory" ), 
-		'rewrite' => array( 'slug' => 'category',  
+		'labels' => array('name'=>"Category",'add_new_item'=>"Add New Category"),
+		'singular_label' => __( "Cagetory" ),
+		'rewrite' => array( 'slug' => 'category',
 		'with_front' => false)
-	)  
+	)
 );
-  
+
 flush_rewrite_rules();
 }
 
 
 /**********************************************************
- * SHORTCODES  
+ * SHORTCODES
  *
- ***********************************************************/ 
- 
+ ***********************************************************/
+
 /******************
- * Testimonials query [rt_testimonials  limit="" order=""]  
+ * Testimonials query [rt_testimonials  limit="" order=""]
  *
- ******************/ 
-function rt_physiotheme_testimonials( $atts, $content = null ) {	
+ ******************/
+function rt_physiotheme_testimonials( $atts, $content = null ) {
 
 	$atts = extract(shortcode_atts(array(
 	'limit' => -1,
 	'order' => 'DESC'
    ),$atts));
-   
-	ob_start();	
+
+	ob_start();
 	include('php/testimonials.php');
 	$content = ob_get_clean();
     return $content;
 }
 add_shortcode('rt_testimonials','rt_physiotheme_testimonials');
 
- 
+
 /*** Visual Composer version ***/
- 
+
 add_action( 'vc_before_init', 'rt_physio_integrateWithVC1' );
 function rt_physio_integrateWithVC1() {
    vc_map( array(
       "name" => __( "Rt testimonials", "physio" ),
       "base" => "rt_testimonials",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -446,21 +446,21 @@ function rt_physio_integrateWithVC1() {
    ));
 }
  /*** Visual Composer version end ***/
- 
- 
- 
+
+
+
  /******************
- * Slider query for slider with image and text [rt_slider  limit="" order=""]  
+ * Slider query for slider with image and text [rt_slider  limit="" order=""]
  *
- ******************/ 
-function rt_physiotheme_slider( $atts, $content = null ) {	
+ ******************/
+function rt_physiotheme_slider( $atts, $content = null ) {
 
 	$atts = extract(shortcode_atts(array(
 	'limit' => -1,
 	'order' => 'ASC'
    ),$atts));
-   
-	ob_start();	
+
+	ob_start();
 	include('php/slider.php');
 	$content = ob_get_clean();
     return $content;
@@ -469,13 +469,13 @@ add_shortcode('rt_slider','rt_physiotheme_slider');
 
 
 /*** Visual Composer version ***/
- 
+
 add_action( 'vc_before_init', 'rt_physio_integrateWithVC2' );
 function rt_physio_integrateWithVC2() {
    vc_map( array(
       "name" => __( "Rt slider for slider with image", "physio" ),
       "base" => "rt_slider",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -501,32 +501,32 @@ function rt_physio_integrateWithVC2() {
 
 
 /******************
- * Slider2 query for slider with text only [rt_slider2  limit="" order=""]  
+ * Slider2 query for slider with text only [rt_slider2  limit="" order=""]
  *
- ******************/ 
-function rt_physiotheme_slider2( $atts, $content = null ) {	
+ ******************/
+function rt_physiotheme_slider2( $atts, $content = null ) {
 
 	$atts = extract(shortcode_atts(array(
 	'limit' => -1,
 	'order' => 'ASC'
    ),$atts));
-   
-	ob_start();	
+
+	ob_start();
 	include('php/slider2.php');
 	$content = ob_get_clean();
     return $content;
 }
 add_shortcode('rt_slider2','rt_physiotheme_slider2');
- 
- 
+
+
 /*** Visual Composer version ***/
- 
+
 add_action( 'vc_before_init', 'rt_physio_integrateWithVC3' );
 function rt_physio_integrateWithVC3() {
    vc_map( array(
       "name" => __( "Rt slider2 for slider with text only", "physio" ),
       "base" => "rt_slider2",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -548,20 +548,20 @@ function rt_physio_integrateWithVC3() {
    ));
 }
  /*** Visual Composer version end ***/
- 
- 
+
+
   /******************
- * Carousel query [rt_carousel  limit="" order="" columns=""]  
+ * Carousel query [rt_carousel  limit="" order="" columns=""]
  *
- ******************/ 
-function rt_physiotheme_carousel( $atts, $content = null ) {	
+ ******************/
+function rt_physiotheme_carousel( $atts, $content = null ) {
 	$atts = extract(shortcode_atts(array(
 	'limit' => -1,
 	'order' => 'ASC',
-	'columns' => '4',	
+	'columns' => '4',
    ),$atts));
-   
-	ob_start();	
+
+	ob_start();
 	include('php/carousel.php');
 	$content = ob_get_clean();
     return $content;
@@ -576,7 +576,7 @@ function rt_physio_integrateWithVC4() {
    vc_map( array(
       "name" => __( "Rt carousel", "physio" ),
       "base" => "rt_carousel",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -605,21 +605,21 @@ function rt_physio_integrateWithVC4() {
    ));
 }
  /*** Visual Composer version end ***/
- 
- 
+
+
 
 /******************
- * Carousel2 query [rt_carousel2  limit="" order="" columns=""]  
+ * Carousel2 query [rt_carousel2  limit="" order="" columns=""]
  *
- ******************/ 
-function rt_physiotheme_carousel2( $atts, $content = null ) {	
+ ******************/
+function rt_physiotheme_carousel2( $atts, $content = null ) {
 	$atts = extract(shortcode_atts(array(
 	'limit' => -1,
 	'order' => 'ASC',
-	'columns' => '4',	
+	'columns' => '4',
    ),$atts));
-   
-	ob_start();	
+
+	ob_start();
 	include('php/carousel2.php');
 	$content = ob_get_clean();
     return $content;
@@ -634,7 +634,7 @@ function rt_physio_integrateWithVC5() {
    vc_map( array(
       "name" => __( "Rt carousel2", "physio" ),
       "base" => "rt_carousel2",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -668,17 +668,17 @@ function rt_physio_integrateWithVC5() {
 /******************
  * Team query  [rt_team limit="" order="" columns=""]
  *
- ******************/ 
+ ******************/
 
-function rt_physiotheme_team( $atts, $content = null ) {	
+function rt_physiotheme_team( $atts, $content = null ) {
 
 	$atts = extract(shortcode_atts(array(
 	'limit' => 4,
 	'order' => 'ASC',
 	'columns' => '4',
    ),$atts));
-   
-	ob_start();	
+
+	ob_start();
 	include('php/team.php');
 	$content = ob_get_clean();
     return $content;
@@ -692,7 +692,7 @@ function rt_physio_integrateWithVC6() {
    vc_map( array(
       "name" => __( "Rt team", "physio" ),
       "base" => "rt_team",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -724,9 +724,9 @@ function rt_physio_integrateWithVC6() {
 
 
 /******************
- * Homeblog query [rt_homeblog limit="" order="" columns=""] 
+ * Homeblog query [rt_homeblog limit="" order="" columns=""]
  *
- ******************/ 
+ ******************/
 
 function rt_physiotheme_homeblog( $atts, $content = null ){
 
@@ -736,8 +736,8 @@ function rt_physiotheme_homeblog( $atts, $content = null ){
   'columns'  => 4
 
    ),$atts));
-	
-	ob_start();	
+
+	ob_start();
 	include('php/homeblog.php');
 	$content = ob_get_clean();
     return $content;
@@ -752,7 +752,7 @@ function rt_physio_integrateWithVC7() {
    vc_map( array(
       "name" => __( "Rt homeblog", "physio" ),
       "base" => "rt_homeblog",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -784,9 +784,9 @@ function rt_physio_integrateWithVC7() {
 
 
 /******************
- * Homeblog list query [rt_homeblog_list limit="2" order="DESC"] 
+ * Homeblog list query [rt_homeblog_list limit="2" order="DESC"]
  *
- ******************/ 
+ ******************/
 
 function rt_physiotheme_homeblog2( $atts, $content = null ){
 
@@ -795,8 +795,8 @@ function rt_physiotheme_homeblog2( $atts, $content = null ){
 	'order' => 'DESC'
 
    ),$atts));
-	
-	ob_start();	
+
+	ob_start();
 	include('php/homeblog2.php');
 	$content = ob_get_clean();
     return $content;
@@ -811,7 +811,7 @@ function rt_physio_integrateWithVC8() {
    vc_map( array(
       "name" => __( "Rt homeblog list", "physio" ),
       "base" => "rt_homeblog_list",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -836,18 +836,18 @@ function rt_physio_integrateWithVC8() {
 
 
  /******************
- * Box columns query [rt_boxcolumns  limit="" order="" columns="" boxed=""]  
- ******************/ 
-function rt_physiotheme_boxcolumns( $atts, $content = null ) {	
+ * Box columns query [rt_boxcolumns  limit="" order="" columns="" boxed=""]
+ ******************/
+function rt_physiotheme_boxcolumns( $atts, $content = null ) {
 
 	$atts = extract(shortcode_atts(array(
 	'limit' => 3,
 	'order' => 'ASC',
 	'columns' => '3',
- 	'boxed' => 'boxed' 
+ 	'boxed' => 'boxed'
    ),$atts));
-   
-	ob_start();	
+
+	ob_start();
 	include('php/boxcolumns.php');
 	$content = ob_get_clean();
     return $content;
@@ -862,7 +862,7 @@ function rt_physio_integrateWithVC9() {
    vc_map( array(
       "name" => __( "Rt boxcolumns", "physio" ),
       "base" => "rt_boxcolumns",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -898,20 +898,20 @@ function rt_physio_integrateWithVC9() {
    ));
 }
  /*** Visual Composer version end ***/
- 
+
 
  /******************
- * Services query [rt_services  limit="" order="" columns=""]  
- ******************/ 
-function rt_physiotheme_services( $atts, $content = null ) {	
+ * Services query [rt_services  limit="" order="" columns=""]
+ ******************/
+function rt_physiotheme_services( $atts, $content = null ) {
 
 	$atts = extract(shortcode_atts(array(
 	'limit' => -1,
 	'order' => 'ASC',
 	'columns' => '3',
    ),$atts));
-   
-	ob_start();	
+
+	ob_start();
 	include('php/services.php');
 	$content = ob_get_clean();
     return $content;
@@ -926,7 +926,7 @@ function rt_physio_integrateWithVC10() {
    vc_map( array(
       "name" => __( "Rt services", "physio" ),
       "base" => "rt_services",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -958,18 +958,18 @@ function rt_physio_integrateWithVC10() {
 
 
 /******************
- * Gallery filter query [rt_gallery_filter  limit="" order="" columns=""]  
+ * Gallery filter query [rt_gallery_filter  limit="" order="" columns=""]
  *
- ******************/ 
-function rt_physiotheme_galleryfilter( $atts, $content = null ) {	
+ ******************/
+function rt_physiotheme_galleryfilter( $atts, $content = null ) {
 
 	$atts = extract(shortcode_atts(array(
 	'limit' => -1,
 	'order' => 'ASC',
- 	'columns' => '3' 
+ 	'columns' => '3'
    ),$atts));
-   
-	ob_start();	
+
+	ob_start();
 	include('php/galleryfilter.php');
 	$content = ob_get_clean();
     return $content;
@@ -984,7 +984,7 @@ function rt_physio_integrateWithVC11() {
    vc_map( array(
       "name" => __( "Rt gallery filter (isotope)", "physio" ),
       "base" => "rt_gallery_filter",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -1024,7 +1024,7 @@ function rt_psytheme_one_counter( $atts, $content = null ) {
 	$atts = extract(shortcode_atts(array(
 	'headline' => 'one counter',
 	'number' => '50',
- 	'timerwrappercolor' => 'timerwrappercolor1', 
+ 	'timerwrappercolor' => 'timerwrappercolor1',
 	),$atts));
 
 	return "
@@ -1045,7 +1045,7 @@ function rt_physio_integrateWithVC12() {
    vc_map( array(
       "name" => __( "Rt one counter", "physio" ),
       "base" => "rt_one_counter",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -1071,7 +1071,7 @@ function rt_physio_integrateWithVC12() {
             "value" => array("white color" => "timerwrappercolor1", "dark color" => "timerwrappercolor2"),
             "description" => __( "Color", "physio" )
          ),
-        
+
       ),
    ));
 }
@@ -1084,15 +1084,15 @@ function rt_physio_integrateWithVC12() {
 *************/
 function rt_physiotheme_rtbanner( $atts, $content = null ) {
 	$atts = extract(shortcode_atts(array(
-	'text' => 'call to action text',	
+	'text' => 'call to action text',
 	'buttontext' => 'see more',
-  'buttonurl' => '',	
+  'buttonurl' => '',
   'target' => '_blank'
 	),$atts));
 
 	return "
-<div class=\"onecolumnwrapper2 column1 hvr-curl-top-right\"> 
-<div class=\"onecolumn wrapper100percent\"> 
+<div class=\"onecolumnwrapper2 column1 hvr-curl-top-right\">
+<div class=\"onecolumn wrapper100percent\">
 <h2>".$text."</h2>
 <div class=\"button1 button-medium text-center\">
 <a class=\"hvr-shutter-out-horizontal\" href=\"$buttonurl\" target=\"$target\">".$buttontext."</a>
@@ -1100,7 +1100,7 @@ function rt_physiotheme_rtbanner( $atts, $content = null ) {
 </div>
 </div>";
 }
-add_shortcode('rt_banner','rt_physiotheme_rtbanner'); 
+add_shortcode('rt_banner','rt_physiotheme_rtbanner');
 
 
 /*** Visual Composer version ***/
@@ -1110,7 +1110,7 @@ function rt_physio_integrateWithVC13() {
    vc_map( array(
       "name" => __( "Rt banner", "physio" ),
       "base" => "rt_banner",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -1144,7 +1144,7 @@ function rt_physio_integrateWithVC13() {
             "value" => array("open in new tab" => "_blank", "open in same tab" => "_self"),
             "description" => __( "open in new or same tab", "physio" )
          ),
-        
+
       ),
    ));
 }
@@ -1155,11 +1155,11 @@ function rt_physio_integrateWithVC13() {
 *************/
 function rt_physiotheme_slider_caption_text( $atts, $content = null ) {
 	$atts = extract(shortcode_atts(array(
-	'align' => 'text-left',	
+	'align' => 'text-left',
 	'subheadline' => 'this is subheadline',
-  'headlinesmall' => 'small headline',	
+  'headlinesmall' => 'small headline',
   'headline' => 'headline',
-  'textcolor' => ''	  
+  'textcolor' => ''
 	),$atts));
 
 	return "
@@ -1179,7 +1179,7 @@ function rt_physio_integrateWithVC14() {
    vc_map( array(
       "name" => __( "Rt slider caption text", "physio" ),
       "base" => "rt_slider_caption_text",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -1205,7 +1205,7 @@ function rt_physio_integrateWithVC14() {
             "param_name" => "subheadline",
             "value" => __( "text", "physio" ),
             "description" => __( "text", "physio" )
-         ), 
+         ),
          array(
             "type" => "dropdown",
             "heading" => __("text align", "physio"),
@@ -1235,12 +1235,12 @@ function rt_physiotheme_slider_caption_button( $atts, $content = null ) {
 	'align' => 'text-left',
 	'size' => 'button-medium',
 	'buttontext' => '',
-	'buttonurl' => '',	
+	'buttonurl' => '',
 	'subheadline' => '',
   'headline' => '',
   'headlinesmall' => '',
   'target' => '_blank',
-  'textcolor' => '' 
+  'textcolor' => ''
 	),$atts));
 
 	return "
@@ -1263,7 +1263,7 @@ function rt_physio_integrateWithVC15() {
    vc_map( array(
       "name" => __( "Rt slider caption button", "physio" ),
       "base" => "rt_slider_caption_button",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -1356,7 +1356,7 @@ function rt_physiotheme_main_headline( $atts, $content = null ) {
 <div class=\"mainheadlinewrapper\">
 <div class=\"mainheadline $align\">
 <h2>".$headline."</h2>
-<div class=\"headlineline\"><i class=\"fa fa-plus-square\"></i></div>
+<!--div class=\"headlineline\"><i class=\"fa fa-plus-square\"></i></div-->
 <h4>".$subheadline."</h4>
 </div>
 </div>
@@ -1372,7 +1372,7 @@ function rt_physio_integrateWithVC16() {
    vc_map( array(
       "name" => __( "Rt main headline", "physio" ),
       "base" => "rt_main_headline",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -1390,7 +1390,7 @@ function rt_physio_integrateWithVC16() {
             "param_name" => "subheadline",
             "value" => __( "text", "physio" ),
             "description" => __( "text", "physio" )
-         ), 
+         ),
          array(
             "type" => "dropdown",
             "heading" => __("Text align", "physio"),
@@ -1429,13 +1429,13 @@ add_shortcode('rt_main_headline_small','rt_physiotheme_main_headlinesmall');
 
 
 /*** Visual Composer version ***/
- 
+
 add_action( 'vc_before_init', 'rt_physio_integrateWithVC17' );
 function rt_physio_integrateWithVC17() {
    vc_map( array(
       "name" => __( "Rt main headline small", "physio" ),
       "base" => "rt_main_headline_small",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -1468,7 +1468,7 @@ function rt_physiotheme_button1( $atts, $content = null ) {
 	$atts = extract(shortcode_atts(array(
 	'url' => '#',
 	'align' => 'text-left',
-	'size' => 'button-small',	
+	'size' => 'button-small',
   'text' => 'text',
 	'target' => '_blank',
 
@@ -1489,7 +1489,7 @@ function rt_physio_integrateWithVC18() {
    vc_map( array(
       "name" => __( "Rt button1", "physio" ),
       "base" => "rt_button1",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -1507,7 +1507,7 @@ function rt_physio_integrateWithVC18() {
             "param_name" => "url",
             "value" => __( "http://...", "physio" ),
             "description" => __( "button URL", "physio" )
-         ), 
+         ),
          array(
             "type" => "dropdown",
             "heading" => __("Target", "physio"),
@@ -1542,7 +1542,7 @@ function rt_physiotheme_button2( $atts, $text = null ) {
 	$atts = extract(shortcode_atts(array(
 	'url' => '#',
 	'align' => 'text-left',
-	'size' => 'button-small',	
+	'size' => 'button-small',
   'text' => 'see more',
 	'target' => '_blank',
 
@@ -1563,7 +1563,7 @@ function rt_physio_integrateWithVC19() {
    vc_map( array(
       "name" => __( "Rt button2", "physio" ),
       "base" => "rt_button2",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
          array(
@@ -1581,7 +1581,7 @@ function rt_physio_integrateWithVC19() {
             "param_name" => "url",
             "value" => __( "http://...", "physio" ),
             "description" => __( "button URL", "physio" )
-         ), 
+         ),
          array(
             "type" => "dropdown",
             "heading" => __("Target", "physio"),
@@ -1634,7 +1634,7 @@ function rt_physio_integrateWithVC21() {
    vc_map( array(
       "name" => __( "Rt working time", "physio" ),
       "base" => "rt_working_time",
-      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png", 
+      "icon" => get_template_directory_uri() . "/assets/images/custom_shortcodes.png",
       "category" => __( "Content", "physio"),
       "params" => array(
         array(
@@ -1670,7 +1670,7 @@ function rt_psytheme_socialicon( $atts, $content = null ) {
   'icon' => '',
 	'target' => '_blank',
 	),$atts));
-	return "<li>						  
+	return "<li>
 <a href=\"$url\" target=\"$target\"><i class=\"$icon\"></i></a>
 </li>";
 }
@@ -1687,7 +1687,7 @@ function rt_psytheme_address( $atts, $content = null ) {
   'icon' => 'phone'
 	),$atts));
 
-	return "<li>						  
+	return "<li>
 <i class=\"fa fa-".$icon."\"></i><h6>$text</h6>
 </li>";
 }
@@ -1761,6 +1761,3 @@ function rt_physiotheme_one_half( $atts, $content = null ) {
 
 }
 add_shortcode('one_half','rt_physiotheme_one_half');
-
-
-

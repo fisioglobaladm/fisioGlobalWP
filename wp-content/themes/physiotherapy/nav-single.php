@@ -26,9 +26,9 @@
                 <?php endif; ?>
               </div>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse"> 
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
               <div class="cl-effect-12">
-                <?php wp_nav_menu( array( 
+                <?php wp_nav_menu( array(
                 'theme_location' => 'primary-menu',
                 'menu'           => 'top_menu',
                 'menu_class'     => 'nav navbar-nav pull-right'
